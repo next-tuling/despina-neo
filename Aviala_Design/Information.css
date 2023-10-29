@@ -1,0 +1,17 @@
+/* TypeFace */
+    /* System Text Font (Defaut: MiSans) */
+    @font-face {
+    font-family: Text;
+    src: url("./Fonts/Text.ttf");
+    }
+    /* System Display Font (Defaut: TulingSans) */
+    @font-face {
+    font-family: Display;
+    src: url("./Fonts/Display.ttf");
+    }
+
+h1 {
+    font-family: Text;
+    font-weight: 400;
+    font-size: 24px;
+}

@@ -1,0 +1,19 @@
+body {
+    background-image: url(DESK-1_DARK.png);
+    background-size: cover;
+    /* background-size: 120%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 12px;
+    gap: 6%;
+    min-width: 680px;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    justify-content: flex-end;
+}

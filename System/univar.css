@@ -1,0 +1,29 @@
+:root {
+    /*统一调色盘*/
+    --ThemeColor: #426FF5;
+    --WarningColor: #FA483E;
+    --DarkModeBackgroundColor: #14141488;
+    --DarkModeBackgroundHoverColor: #141414dd;
+    --LightModeBackgroundColor: #ffffff88;
+    --LightModeBackgroundHoverColor: #ffffffdd;
+    /*系统实际用色*/
+    --SystemThemeColor: var(--ThemeColor);
+    --SystemWarningColor: var(--WarningColor);
+    --SystemDarkModeThemeColor: var(--DarkModeBackgroundColor);
+    --SystemDarkModeHoverThemeColor: var(--DarkModeBackgroundHoverColor);
+    --SystemLightModeThemeColor: var(--LightModeBackgroundColor);
+    --SystemLightModeHoverThemeColor: var(--LightModeBackgroundHoverColor);
+    /*系统动画变量*/
+    --animationBasic1: 150ms ease-in-out;
+    --animationBasic2: 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
+    /*统一窗口效果*/
+    --WindowsShadowBasic: drop-shadow(0px 8px 25px #14141488); 
+    --WindowFilterBasic: blur(15px);
+}
+
+a {
+    text-decoration:none;
+    display: flex;
+    flex-direction: column;
+    /* gap: 6%; */
+}

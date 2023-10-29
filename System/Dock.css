@@ -1,0 +1,155 @@
+.DockBar {
+    background-color: var(--SystemDarkModeThemeColor);
+    border-radius: 20px;
+    display: flex;
+    padding: 8px 12px;
+    filter: var(--WindowsShadowBasic);
+    backdrop-filter: var(--WindowFilterBasic);
+    transition: var(--animationBasic2);
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.date {
+    font-family: Text;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 11px;
+}
+
+.clock {
+    font-family: Text;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 11px;
+}
+
+.DockButton {
+    border-radius: 10px;
+    padding: 9px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:12.49px;
+    transition: var(--animationBasic2);
+}
+
+.ConditionButton {
+    border-radius: 10px;
+    padding: 9px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:12.49px;
+    transition: var(--animationBasic2);
+}
+
+.ActivityBox {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0;
+    height: 34px;
+}
+
+.ConditionBox {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0;
+    height: 34px;
+    gap: 4px;
+    transition: var(--animationBasic2);
+}
+
+.TimeBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 4px 6px;
+    border-radius: 10px;
+    transition: var(--animationBasic2);
+}
+
+.DockButton:hover {
+    background-color: var(--SystemDarkModeThemeColor);
+}
+
+.ConditionButton:hover {
+    background-color: var(--SystemDarkModeThemeColor);
+}
+
+.TimeBox:hover {
+    background-color: var(--SystemDarkModeThemeColor);
+}
+
+.AppiconBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: var(--animationBasic2);
+}
+
+.AppiconBox {
+    padding: 6px;
+    border-radius: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--animationBasic2);
+}
+
+.AppiconBox:hover {
+    background-color: var(--SystemDarkModeThemeColor);
+}
+
+.AppiconBox-Open {
+    padding: 6px;
+    border-radius: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: solid 2px var(--SystemThemeColor);
+    transition: var(--animationBasic2);
+}
+
+.AppiconBox-Open:hover {
+    background-color: var(--SystemDarkModeThemeColor);
+}
+
+.AppiconBox-Warning {
+    padding: 6px;
+    border-radius: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: solid 2px var(--SystemWarningColor);
+    transition: var(--animationBasic2);
+}
+
+.AppiconBox-Warning:hover {
+    background-color: var(--SystemDarkModeThemeColor);
+}
+
+.AppiconBox-Backstage {
+    padding: 6px;
+    border-radius: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--SystemDarkModeHoverThemeColor);
+    outline: solid 2px var(--SystemWarningColor);
+    transition: var(--animationBasic2);
+}
+
+.AppiconBox-Backstage:hover {
+    background-color: var(--SystemDarkModeThemeColor);
+}

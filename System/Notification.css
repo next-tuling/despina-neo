@@ -1,0 +1,73 @@
+.notificationBox {
+    background-color: var(--SystemDarkModeThemeColor);
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    filter: var(--WindowsShadowBasic);
+    backdrop-filter: var(--WindowFilterBasic);
+    transition: var(--animationBasic2);
+}
+
+.notification {
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    font-family: Text;
+    max-width: 730px;
+}
+
+.openButton {
+    background-color: #00000040;
+    border-radius: 6.5px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF60;
+    transition: var(--animationBasic1);
+}
+
+.textBox {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 5px;
+    color: #fff;
+}
+
+n-h {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+n-p {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+time {
+    font-size: 14px;
+    color: #ffffff60;
+    font-weight: 250;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 16px;
+}
+
+/* 以下是悬停部分 */
+
+.notificationBox:hover{
+    background-color: var(--SystemDarkModeHoverThemeColor);
+}
+
+.notificationBox:hover .openButton{
+    background-color: var(--SystemThemeColor);
+}
