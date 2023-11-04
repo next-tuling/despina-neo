@@ -17,13 +17,14 @@
     </script>
 </head>
 
-<body οnclick="GotoLogin()">
+<body οnload="Load();">
     <script>
         //禁用右键菜单
         document.addEventListener('contextmenu', function (e) {
             e.preventDefault();
         }) 
     </script>
+    <script src="./system/clock.js"><script>
     <div class="notification">
         <!--通知中心-->
         <div class="notificationBox">
@@ -146,6 +147,7 @@
     </div>
     <div class="timeBox">
         <div class="time">
+            <!-- 
             <!--时钟-->
             <script>
                 //获取
@@ -167,9 +169,10 @@
                 setInterval("document.getElementById('date').innerHTML = (new Date()).format('yyyy 年 MM 月 dd 日');", 60000);
                 setInterval("document.getElementById('clock').innerHTML = (new Date()).format('hh:mm');", 100); 4
             </script>
+            -->
             <!--显示日期与时间-->
-            <div id="date" class="date">2023 年 10 月 25 日</div>
-            <div id="clock" class="clock">18:25</div>
+            <div id="date" class="yyyy-mm-dd">2023 年 10 月 25 日</div>
+            <div id="clock" class="hh-mm">18:25</div>
         </div>
         <div class="User">
             <img class="userphoto" src="./Users/000000/uesrphoto.jpg" width="38px" height="38px">
